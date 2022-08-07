@@ -30,11 +30,11 @@ pip install -r requirements.txt
 
 Run the server.
 ```
-uvicorn main:app --port=8001
+uvicorn app.main:app --port=8001
 ```
 If you want to watch for changes, use the reload flag.
 ```
-uvicorn main:app --reload --port=8001
+uvicorn app.main:app --reload --port=8001
 ```
 This will run the app on port 8001. Here we use port 8001 so it does not collide with the port used by the api by default.
 ```
