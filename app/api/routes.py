@@ -1,7 +1,7 @@
 from fastapi import APIRouter
 
-from pd_models.products import ProductUpdateNotification
-from notifiers.email_sender import send_emails, create_email_message
+from app.pd_models.products import ProductUpdateNotification
+from app.notifiers.email_sender import send_emails, create_email_message
 
 
 router = APIRouter()

@@ -3,7 +3,7 @@ from typing import Any
 from sendgrid import SendGridAPIClient
 from sendgrid.helpers.mail import Mail
 
-from settings import SENDGRID_API_KEY, FROM_EMAIL
+from app.settings import SENDGRID_API_KEY, FROM_EMAIL
 
 
 def send_emails(message):
